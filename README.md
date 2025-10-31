@@ -29,8 +29,7 @@ Data was cleaned, transformed, and merged in Power Query.
 Star schema  
 Date hierarchy enabled  
 
-**DAX Calculations**
-Measures
+**DAX Calculations Measures**
 ```DAX
 Total Spend = SUMX('PO', 'PO'[Quantity] * 'PO'[UnitPrice])
 Avg Lead Time = AVERAGE('PO'[LeadTimeDays])
